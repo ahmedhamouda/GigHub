@@ -164,6 +164,10 @@
     <Compile Include="Migrations\201807110631000_AddArtist.Designer.cs">
       <DependentUpon>201807110631000_AddArtist.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807110651482_UpdateNullableConstraintsAndStringLength.cs" />
+    <Compile Include="Migrations\201807110651482_UpdateNullableConstraintsAndStringLength.Designer.cs">
+      <DependentUpon>201807110651482_UpdateNullableConstraintsAndStringLength.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\Genra.cs" />
@@ -241,6 +245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807110631000_AddArtist.resx">
       <DependentUpon>201807110631000_AddArtist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807110651482_UpdateNullableConstraintsAndStringLength.resx">
+      <DependentUpon>201807110651482_UpdateNullableConstraintsAndStringLength.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
