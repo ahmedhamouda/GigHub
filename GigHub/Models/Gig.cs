@@ -10,6 +10,8 @@ namespace GigHub.Models
 
         public string Venue { get; set; }
 
+        public Artist Artist { get; set; }
+
         public Genra Genra { get; set; }
     }
 }

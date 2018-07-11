@@ -160,7 +160,12 @@
     <Compile Include="Migrations\201807110623555_AddGenra.Designer.cs">
       <DependentUpon>201807110623555_AddGenra.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807110631000_AddArtist.cs" />
+    <Compile Include="Migrations\201807110631000_AddArtist.Designer.cs">
+      <DependentUpon>201807110631000_AddArtist.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\Genra.cs" />
     <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\GigHubContext.cs" />
@@ -233,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807110623555_AddGenra.resx">
       <DependentUpon>201807110623555_AddGenra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807110631000_AddArtist.resx">
+      <DependentUpon>201807110631000_AddArtist.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
