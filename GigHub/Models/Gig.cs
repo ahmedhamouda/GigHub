@@ -9,5 +9,7 @@ namespace GigHub.Models
         public DateTime Timestamp { get; set; }
 
         public string Venue { get; set; }
+
+        public Genra Genra { get; set; }
     }
 }
